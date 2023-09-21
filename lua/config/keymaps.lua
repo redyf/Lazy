@@ -10,6 +10,13 @@ set("n", "<S-TAB>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Next buffer" })
 -- save
 set({ "n" }, "<leader>ww", "<cmd>w<cr><esc>", { desc = "Save file" })
 
+-- Inlay hints (Only works in the nightly version of nvim v0.10)
+-- if vim.lsp.inlay_hint then
+--   set("n", "<leader>uh", function()
+--     vim.lsp.inlay_hint(0, nil)
+--   end, { desc = "Toggle Inlay Hints" })
+-- end
+
 -- Nomodoro keymaps
 -- local opts = { noremap = true, silent = true }
 -- set("n", "<leader>n", "<cmd>NomoMenu<cr>", { desc = "NomoMenu" })
