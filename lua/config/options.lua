@@ -13,6 +13,9 @@ opt.fileencoding = "utf-8"
 opt.timeoutlen = 10 -- Which-key timeout in ms
 opt.backup = false
 opt.swapfile = false
+opt.laststatus = 2
+opt.showtabline = 2
+opt.termguicolors = true
 
 -- Neovide
 if vim.g.neovide then
