@@ -1,7 +1,7 @@
 return {
   "nyoom-engineering/oxocarbon.nvim",
   event = "VeryLazy",
-  --   -- Configure LazyVim to load oxocarbon
+  -- Configure LazyVim to load the colorscheme
   {
     "LazyVim/LazyVim",
     opts = {

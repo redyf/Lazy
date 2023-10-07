@@ -27,14 +27,13 @@ if g.neovide then
   g.neovide_cursor_vfx_particle_lifetime = 5.0
   g.neovide_cursor_vfx_particle_density = 14.0
   g.neovide_cursor_vfx_particle_speed = 12.0
-  g.neovide_transparency = 0.8
+  g.neovide_transparency = 0.5
 
   -- Neovide Fonts
-  vim.o.guifont = "JetBrainsMono Nerd Font:h16:b"
-  -- vim.o.guifont = "CaskaydiaCove Nerd Font:h15:b"
-  -- vim.o.guifont = "Liga SFMono Nerd Font:h15:b"
-  -- vim.o.guifont = "LiterationMono Nerd Font:h15:b"
-  -- vim.o.guifont = "Agave Nerd Font:h17:b"
-  -- vim.o.guifont = "BlexMono Nerd Font Mono:h13:b"
-  -- vim.o.guifont = "FiraCode Nerd Font:h15:b"
+  -- vim.o.guifont = "JetBrainsMono Nerd Font:h16:b"
+  vim.o.guifont = "CaskaydiaCove Nerd Font:h16:b"
+  -- vim.o.guifont = "Liga SFMono Nerd Font:h16:b"
+  -- vim.o.guifont = "LiterationMono Nerd Font:h16:b"
+  -- vim.o.guifont = "BlexMono Nerd Font Mono:h16:b"
+  -- vim.o.guifont = "FiraCode Nerd Font:h16:b"
 end
