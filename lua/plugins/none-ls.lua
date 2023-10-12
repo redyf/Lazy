@@ -10,10 +10,8 @@ return {
       table.insert(opts.sources, nls.builtins.diagnostics.statix)
       table.insert(opts.sources, nls.builtins.diagnostics.stylelint)
       -- Formatters
-      table.insert(opts.sources, nls.builtins.formatting.prettierd)
       table.insert(opts.sources, nls.builtins.formatting.astyle)
       table.insert(opts.sources, nls.builtins.formatting.alejandra)
-      table.insert(opts.sources, nls.builtins.formatting.prettierd)
       table.insert(opts.sources, nls.builtins.formatting.black.with({ extra_args = { "--fast" } }))
       table.insert(opts.sources, nls.builtins.formatting.rustfmt)
       table.insert(opts.sources, nls.builtins.formatting.yamlfmt)

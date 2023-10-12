@@ -30,10 +30,10 @@ if g.neovide then
   g.neovide_transparency = 0.5
 
   -- Neovide Fonts
-  -- vim.o.guifont = "JetBrainsMono Nerd Font:h16:b"
-  vim.o.guifont = "CaskaydiaCove Nerd Font:h16:b"
-  -- vim.o.guifont = "Liga SFMono Nerd Font:h16:b"
-  -- vim.o.guifont = "LiterationMono Nerd Font:h16:b"
-  -- vim.o.guifont = "BlexMono Nerd Font Mono:h16:b"
-  -- vim.o.guifont = "FiraCode Nerd Font:h16:b"
+  -- vim.o.guifont = "JetBrainsMono Nerd Font:h18:b:i"
+  -- vim.o.guifont = "CaskaydiaCove Nerd Font:h18:b:i"
+  -- vim.o.guifont = "Liga SFMono Nerd Font:h18:b:i"
+  -- vim.o.guifont = "LiterationMono Nerd Font:h18:b:i"
+  vim.o.guifont = "BlexMono Nerd Font Mono:h18:b:i"
+  -- vim.o.guifont = "FiraCode Nerd Font:h16:b:i"
 end
