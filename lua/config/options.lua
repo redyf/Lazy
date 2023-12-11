@@ -31,9 +31,9 @@ if g.neovide then
 
   -- Neovide Fonts
   -- vim.o.guifont = "JetBrainsMono Nerd Font:h12:b:i"
-  vim.o.guifont = "Monaspace Neon:h12:b"
-  -- vim.o.guifont = "Monaspace Argon:h12:b"
-  -- vim.o.guifont = "CaskaydiaCove Nerd Font:h12:b:i"
+  -- vim.o.guifont = "Monaspace Neon:h12:b:i"
+  vim.o.guifont = "Monaspace Argon:h12:b:i"
+  -- vim.o.guifont = "CaskaydiaCove Nerd Font:h13:b:i"
   -- vim.o.guifont = "BlexMono Nerd Font Mono:h12:b:i"
   -- vim.o.guifont = "Liga SFMono Nerd Font:h12:b:i"
 end
