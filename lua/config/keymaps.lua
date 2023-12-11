@@ -10,6 +10,12 @@ set("n", "<S-TAB>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Next buffer" })
 -- save
 set({ "n" }, "<leader>ww", "<cmd>w<cr><esc>", { desc = "Save file" })
 
+-- Setup tmux mappings for neovim
+set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "window left" })
+set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "window right" })
+set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", { desc = "window down" })
+set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", { desc = "window up" })
+
 -- Inlay hints (Only works in the nightly version of nvim v0.10)
 -- if vim.lsp.inlay_hint then
 --   set("n", "<leader>uh", function()
