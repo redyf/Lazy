@@ -4,7 +4,17 @@ return {
     event = "VeryLazy",
   },
   {
+    "catppuccin/nvim",
+    event = "VeryLazy",
+    name = "catppuccin",
+    priority = 1000,
+    opts = {
+      transparent_background = true,
+    },
+  },
+  {
     "folke/tokyonight.nvim",
+    event = "VeryLazy",
     opts = {
       transparent = true,
       tokyonight_dark_float = false,
@@ -19,7 +29,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
