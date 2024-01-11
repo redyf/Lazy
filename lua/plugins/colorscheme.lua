@@ -25,6 +25,12 @@ return {
     },
   },
 
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    event = "VeryLazy",
+  },
+
   -- Configure LazyVim to load the colorscheme
   {
     "LazyVim/LazyVim",

@@ -4,8 +4,10 @@
 
 local opt = vim.opt
 local g = vim.g
+local o = vim.o
 
 -- Vim options
+o.guicursor = "n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor"
 opt.shiftwidth = 2
 opt.wrap = true -- wrap long lines
 opt.encoding = "utf-8"
@@ -30,10 +32,13 @@ if g.neovide then
   g.neovide_transparency = 0.8
 
   -- Neovide Fonts
-  vim.o.guifont = "JetBrainsMono Nerd Font:h13:m"
-  -- vim.o.guifont = "FiraMono Nerd Font:h13:b"
-  -- vim.o.guifont = "IntoneMono Nerd Font:h13:b:i"
-  -- vim.o.guifont = "CaskaydiaCove Nerd Font:h13:b:i"
-  -- vim.o.guifont = "BlexMono Nerd Font Mono:h13:b:i"
-  -- vim.o.guifont = "Liga SFMono Nerd Font:h13:b:i"
+  -- o.guifont = "Berkeley Mono Trial:Medium:h15"
+  o.guifont = "MonoLisa Trial:Medium:h15"
+  -- o.guifont = "CommitMono:Medium:h15"
+  -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
+  -- o.guifont = "FiraMono Nerd Font:Medium:h14"
+  -- o.guifont = "IntoneMono Nerd Font:h14:b:i"
+  -- o.guifont = "CaskaydiaCove Nerd Font:h14:b:i"
+  -- o.guifont = "BlexMono Nerd Font Mono:h14:Medium:i"
+  -- o.guifont = "Liga SFMono Nerd Font:b:h15"
 end

@@ -7,9 +7,6 @@ set = vim.keymap.set
 set("n", "<TAB>", "<cmd>BufferLineCycleNext<cr>", { desc = "Prev buffer" })
 set("n", "<S-TAB>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Next buffer" })
 
--- save
-set({ "n" }, "<leader>ww", "<cmd>w<cr><esc>", { desc = "Save file" })
-
 -- Setup tmux mappings for neovim
 set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "window left" })
 set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "window right" })
